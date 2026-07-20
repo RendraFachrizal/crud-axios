@@ -1,0 +1,86 @@
+.div-table-movie table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 90%;
+}
+
+.div-table-movie td,
+.div-table-movie th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.div-table-movie tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.div-table-movie tr:hover {
+  background-color: #ddd;
+}
+
+.div-table-movie th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #04aa6d;
+  color: white;
+}
+
+.div-table-movie {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.div-table-movie button {
+  border-radius: 8px;
+  font-size: 16px;
+  padding: 6px;
+  color: white;
+}
+
+.div-table-movie .bt-del {
+  background-color: #f44336;
+  margin-right: 10px;
+}
+
+.div-table-movie .bt-edit {
+  margin-left: 10px;
+  background-color: #008cba;
+}
+
+.div-input-movie form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.div-input-movie label {
+  display: block;
+}
+
+.div-input-movie input[type="text"],
+.div-input-movie input[type="number"] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.div-input-movie input[type="submit"] {
+  width: 100%;
+  background-color: rgb(61, 155, 255);
+  color: white;
+  padding: 14px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.div-input-movie input[type="submit"]:hover {
+  background-color: #45a049;
+}
